@@ -80,35 +80,27 @@ This approach allowed us to evaluate channel efficiency and identify optimizatio
 🔹 Revenue Distribution by Age Group (All Channels)
 ![Segmentation](./revenue-by-age-group.png)
 
-
-## 🔍 Key Insights
-
-- Search channel is the dominant revenue driver  
-- Organic channel provides high efficiency with lower acquisition cost  
-- Paid channels show optimization opportunities in customer acquisition
-- Customer distribution is concentrated in key regions (China & USA)  
-- Customer behavior varies significantly across regions and segments  
-
 ---
 
 ## 📊 Dashboard Scope
 
 The Power BI dashboard includes:
 
-- Marketing & Channel Performance Analysis  
-- Traffic Source Analysis (Volume vs Value)  
-- Customer Segmentation (Age, Gender, Geography)  
-- Channel-Based Unit Economics (CAC Proxy, Revenue per Customer)  
+- Revenue analysis by traffic source  
+- Customer acquisition analysis by channel  
+- Same-day purchase (conversion) rate by channel type  
+- Revenue per customer analysis  
+- Customer acquisition cost (CAC proxy) analysis  
+- Revenue distribution by age group and customer segments 
 
 ---
 
 ## 💡 Business Impact
 
-This project demonstrates how marketing data can be transformed into actionable insights to:
-
-- Optimize marketing budget allocation  
-- Improve customer acquisition efficiency  
-- Identify high-performing channels and segments  
+- Identified **Search as the primary revenue driver**  
+- Highlighted **Organic as a cost-efficient channel**  
+- Revealed **optimization opportunities in paid channels**  
+- Provided insights for **data-driven marketing strategy decisions**  
 
 ---
 
