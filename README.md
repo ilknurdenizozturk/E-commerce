@@ -1,87 +1,87 @@
-# E-commerce Marketing and Web Performance Analytics
+# 📊 Marketing Effectiveness & Channel Analytics (E-commerce)
 
-This project models e-commerce behavioral and transactional data using **dbt + BigQuery** to support downstream reporting in **Power BI**.
+This project was developed as part of a team during the Workintech Data Analytics Bootcamp.  
+The main objective was to analyze marketing performance and identify optimization opportunities using data-driven insights.
 
-## Business Questions
+---
 
-This analytics project focuses on two domains:
+## 🚀 Project Overview
 
-1. **Website Performance**
-   - What are the main website traffic sources?
-   - How do traffic sources affect conversion behavior?
-   - Are there usability or funnel bottlenecks visible in website interaction data?
+In this project, we built an end-to-end analytics solution to evaluate marketing channel performance, customer acquisition efficiency, and revenue contribution.
 
-2. **Marketing Effectiveness**
-   - Which marketing channels generate the most valuable traffic?
-   - How do different channels compare in terms of completed orders and revenue?
-   - Which customer segments respond better to different acquisition sources?
+The workflow includes:
+- Data extraction and transformation in BigQuery
+- Data modeling using dbt (staging & mart layers)
+- Dashboard development in Power BI
 
-## Tech Stack
+---
 
-- **BigQuery** for raw and transformed storage
-- **dbt** for data modeling and testing
-- **Power BI** for dashboarding and reporting
+## 🛠️ Tech Stack
 
-## dbt Modeling Layers
+- Google BigQuery (Data Warehouse)
+- dbt (Data Transformation & Modeling)
+- Power BI (Data Visualization)
+- SQL
 
-### Staging
-Raw source cleanup and standardization:
-- `stg_events`
-- `stg_order_items`
-- `stg_users`
-- `stg_products`
+---
 
-### Intermediate
-Enriched business-ready transformation layer:
-- `int_events_enriched`
-- `int_orders_enriched`
+## 📌 My Contributions
 
-### Marts
-Final reporting models:
-- `dim_user`
-- `dim_products`
-- `fct_marketing_web_performance`
-- `fct_order_marketing`
+- Designed and implemented data transformations using dbt  
+- Created analytical tables in BigQuery (fact & dimension structure)  
+- Built interactive Power BI dashboards  
+- Performed marketing analytics (ROI, conversion rate, CAC proxy)  
+- Generated actionable business insights  
 
-## Final Fact Tables
+---
 
-### `fct_marketing_web_performance`
-Session-level fact table used for:
-- sessions
-- conversion flags
-- session duration
-- traffic source analysis
-- browser analysis
-- time-of-day analysis
+## 📈 Key Metrics
 
-### `fct_order_marketing`
-Order-item-level fact table used for:
-- revenue
-- returned revenue
-- completed order counts
-- category / brand analysis
-- traffic source performance
+- Revenue  
+- Average Order Value (AOV)  
+- Conversion Rate  
+- Customer Acquisition Cost (Proxy)  
+- Customer Lifetime Insights  
 
-## Data Quality
+---
 
-dbt tests are used for:
-- `not_null`
-- `unique`
-- `relationships`
-- `accepted_values`
+## 🔍 Key Insights
 
-## Notes and Limitations
+- Search channel is the dominant revenue driver  
+- Organic channel provides high efficiency with lower acquisition cost  
+- Paid channels show optimization opportunities in customer acquisition  
+- Customer behavior varies significantly across regions and segments  
 
-This dataset does not include direct campaign cost fields, so:
-- **ROI cannot be calculated directly**
-- **CAC cannot be calculated directly**
+---
 
-Instead, the project focuses on proxy metrics such as:
-- revenue by traffic source
-- session conversion signals
-- completed orders by channel
-- user segment performance
+## 📊 Dashboard Scope
 
-## Next Step
+The Power BI dashboard includes:
 
-The marts are designed to be consumed directly in Power BI for dashboarding.
+- Marketing ROI & Channel Performance Analysis  
+- Traffic Source Analysis (Volume vs Value)  
+- Customer Segmentation (Age, Gender, Geography)  
+- Channel-Based Unit Economics (CAC Proxy, Revenue per Customer)  
+
+---
+
+## 📷 Dashboard Preview
+
+(Add your Power BI screenshots here)
+
+---
+
+## 💡 Business Impact
+
+This project demonstrates how marketing data can be transformed into actionable insights to:
+
+- Optimize marketing budget allocation  
+- Improve customer acquisition efficiency  
+- Identify high-performing channels and segments  
+
+---
+
+## ⚠️ Note
+
+This project was developed as part of a team project during a bootcamp.  
+All analyses and dashboards were built collaboratively.
