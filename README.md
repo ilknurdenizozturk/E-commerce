@@ -68,7 +68,7 @@ This approach allowed us to evaluate channel efficiency and identify optimizatio
 ![Revenue](./revenue-by-traffic-source.png)
 
 🔹 Same-Day Purchase Rate by Channel Type
-![Conversion](./same-day-conversion-rate.png)
+![Conversion](./Same-Day Conversion Rate by Channel Type.png)
 
 🔹 Revenue per Customer
 ![RPC](./revenue-per-customer.png)
