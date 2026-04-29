@@ -59,6 +59,28 @@ This approach allowed us to evaluate channel efficiency and identify optimizatio
 
 ---
 
+## 📊 Dashboard Preview & Insights
+
+🔹 KPI Overview
+![KPIs](./Kpis.png)
+
+🔹 Revenue by Traffic Source
+![Revenue](./revenue-by-traffic-source.png)
+
+🔹 Same-Day Purchase Rate by Channel Type
+![Conversion](./same-day-conversion-rate.png)
+
+🔹 Revenue per Customer
+![RPC](./revenue-per-customer.png)
+
+
+🔹 Customer Acquisition Cost (Proxy)
+![CAC](./cac-proxy.png)
+
+🔹 Revenue Distribution by Age Group (All Channels)
+![Segmentation](./revenue-by-age-group.png)
+
+
 ## 🔍 Key Insights
 
 - Search channel is the dominant revenue driver  
