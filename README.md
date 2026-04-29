@@ -41,7 +41,21 @@ The workflow includes:
 - Average Order Value (AOV)  
 - Conversion Rate  
 - Customer Acquisition Cost (Proxy)  
-- Customer Lifetime Insights  
+-  Revenue per Customer  
+- Sessions per Customer 
+
+---
+
+## ⚠️ ROI Approach
+
+Due to the absence of marketing cost data, ROI could not be calculated directly.
+
+Instead, we used proxy metrics such as:
+- Customer Acquisition Cost (CAC proxy)  
+- Sessions per customer  
+- Revenue per customer  
+
+This approach allowed us to evaluate channel efficiency and identify optimization opportunities.
 
 ---
 
@@ -49,7 +63,8 @@ The workflow includes:
 
 - Search channel is the dominant revenue driver  
 - Organic channel provides high efficiency with lower acquisition cost  
-- Paid channels show optimization opportunities in customer acquisition  
+- Paid channels show optimization opportunities in customer acquisition
+- Customer distribution is concentrated in key regions (China & USA)  
 - Customer behavior varies significantly across regions and segments  
 
 ---
@@ -58,16 +73,10 @@ The workflow includes:
 
 The Power BI dashboard includes:
 
-- Marketing ROI & Channel Performance Analysis  
+- Marketing & Channel Performance Analysis  
 - Traffic Source Analysis (Volume vs Value)  
 - Customer Segmentation (Age, Gender, Geography)  
 - Channel-Based Unit Economics (CAC Proxy, Revenue per Customer)  
-
----
-
-## 📷 Dashboard Preview
-
-(Add your Power BI screenshots here)
 
 ---
 
